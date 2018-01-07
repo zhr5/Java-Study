@@ -8,7 +8,19 @@
 
 
 ---
+
 ![此处输入图片的描述][1]
 
 
-  [1]: https://raw.githubusercontent.com/HuirongZhang/JAVA/master/EightQueen/res/EightQueen.png
+
+
+
+ 
+
+
+  
+  ![此处输入图片的描述][2]
+
+
+  [1]: https://raw.githubusercontent.com/HuirongZhang/JAVA/master/EightQueen/res/EightQueen1.png
+  [2]: https://raw.githubusercontent.com/HuirongZhang/JAVA/master/EightQueen/res/Queen.png
