@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" prefHeight="512.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.MainControl">
+   <children>
+      <Canvas fx:id="canvas" height="512.0" onMouseClicked="#Click" width="512.0" />
+      <Line endX="512.0" endY="0.0" startY="0.0" />
+      <Line endX="512.0" endY="64.0" startY="64.0" />
+      <Line endX="512.0" endY="128.0" startY="128.0" />
+      <Line endX="512.0" endY="192.0" startY="192.0" />
+      <Line endX="512.0" endY="256.0" startY="256.0" />
+      <Line endX="512.0" endY="320.0" startY="320.0" />
+      <Line endX="512.0" endY="384.0" startY="384.0" />
+      <Line endX="512.0" endY="448.0" startY="448.0" />
+      <Line endX="512.0" endY="512.0" startX="512.0" />
+      <Line endX="448.0" endY="512.0" startX="448.0" />
+      <Line endX="384.0" endY="512.0" startX="384.0" />
+      <Line endX="320.0" endY="512.0" startX="320.0" />
+      <Line endX="256.0" endY="512.0" startX="256.0" />
+      <Line endX="192.0" endY="512.0" startX="192.0" />
+      <Line endX="128.0" endY="512.0" startX="128.0" />
+      <Line endX="64.0" endY="512.0" startX="64.0" />
+      <Line endX="0.0" endY="512.0" startX="0.0" />
+      <TextArea fx:id="note" layoutX="512.0" layoutY="200.0" prefHeight="60.0" prefWidth="88.0">
+         <font>
+            <Font name="Consolas Bold" size="18.0" />
+         </font></TextArea>
+   </children>
+</AnchorPane>
