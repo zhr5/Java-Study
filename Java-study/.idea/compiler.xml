@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="RedisCache" />
+        <module name="Proxy" />
+        <module name="redisson-lock" />
+        <module name="SPI" />
+        <module name="dubbo-helloworld" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="dubbo-helloworld" target="1.8" />
+      <module name="Proxy" target="1.5" />
+      <module name="Redis" target="1.8" />
+      <module name="RedisCache" target="1.8" />
+      <module name="redisson-lock" target="1.8" />
+      <module name="SPI" target="1.8" />
+      <module name="study" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
