@@ -5,6 +5,9 @@
     <file url="file://$PROJECT_DIR$/Redis/RedisCache/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Redis/redisson-lock/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Redis/redisson-lock/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SE/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SPI/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SPI/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/distributeID/src/main/java" charset="UTF-8" />
   </component>
 </project>

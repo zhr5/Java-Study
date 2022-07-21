@@ -12,6 +12,8 @@
         <module>Redis</module>
         <module>dubbo-helloworld</module>
         <module>SPI</module>
+        <module>SE</module>
+        <module>distributeID</module>
     </modules>
     <properties>
         <encoding>UTF-8</encoding>
