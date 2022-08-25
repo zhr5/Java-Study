@@ -51,3 +51,10 @@ test-output
 atlassian-ide-plugin.xml
 .gradletasknamecache
 !/inspectionProfiles/
+*
+!/inspectionProfiles/Project_Default.xml
+!/compiler.xml
+!/jarRepositories.xml
+!/misc.xml
+!/vcs.xml
+target/
