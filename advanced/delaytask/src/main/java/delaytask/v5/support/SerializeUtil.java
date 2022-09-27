@@ -1,4 +1,4 @@
-package com.geekhalo.delaytask.v5.support;
+package delaytask.v5.support;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonProcessingException;

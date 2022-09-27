@@ -1,4 +1,4 @@
-package com.geekhalo.delaytask;
+package delaytask;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,6 +1,7 @@
-package com.geekhalo.delaytask.v4;
+package delaytask.v4;
 
-import com.geekhalo.delaytask.service.OrderInfoService;
+
+import delaytask.service.OrderInfoService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.common.message.MessageExt;
 import org.apache.rocketmq.spring.annotation.RocketMQMessageListener;

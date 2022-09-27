@@ -1,7 +1,8 @@
-package com.geekhalo.delaytask.v1;
+package delaytask.v1;
 
-import com.geekhalo.delaytask.service.OrderInfo;
-import com.geekhalo.delaytask.service.OrderInfoService;
+
+import delaytask.service.OrderInfo;
+import delaytask.service.OrderInfoService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.time.DateUtils;
 import org.springframework.beans.factory.annotation.Autowired;

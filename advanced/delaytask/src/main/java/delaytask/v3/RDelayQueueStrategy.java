@@ -1,10 +1,10 @@
-package com.geekhalo.delaytask.v3;
+package delaytask.v3;
 
-import com.geekhalo.delaytask.service.OrderInfoCreateEvent;
-import com.geekhalo.delaytask.service.OrderInfoService;
-import lombok.Value;
+
+import delaytask.service.OrderInfoCreateEvent;
+import delaytask.service.OrderInfoService;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang3.time.DateUtils;
+
 import org.redisson.api.RBlockingQueue;
 import org.redisson.api.RDelayedQueue;
 import org.redisson.api.RedissonClient;
@@ -14,9 +14,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.event.TransactionalEventListener;
 
 import javax.annotation.PostConstruct;
-import java.util.Date;
-import java.util.concurrent.DelayQueue;
-import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
 
 @Slf4j

@@ -1,7 +1,8 @@
-package com.geekhalo.delaytask.v2;
+package delaytask.v2;
 
-import com.geekhalo.delaytask.service.OrderInfoCreateEvent;
-import com.geekhalo.delaytask.service.OrderInfoService;
+
+import delaytask.service.OrderInfoCreateEvent;
+import delaytask.service.OrderInfoService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
 import org.springframework.beans.factory.annotation.Autowired;

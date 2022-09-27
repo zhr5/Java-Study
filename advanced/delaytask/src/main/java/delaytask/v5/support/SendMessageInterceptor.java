@@ -1,4 +1,4 @@
-package com.geekhalo.delaytask.v5.support;
+package delaytask.v5.support;
 
 import com.google.common.collect.Maps;
 import lombok.extern.slf4j.Slf4j;
@@ -45,7 +45,7 @@ public class SendMessageInterceptor implements MethodInterceptor {
     private String serialize(Object[] arguments) {
         Map<String, String> result = Maps.newHashMapWithExpectedSize(arguments.length);
         for (int i = 0; i < arguments.length; i++){
-             result.put(String.valueOf(i), SerializeUtil.serialize(arguments[i]));
+             result.put(String.valueOf(i),SerializeUtil.serialize(arguments[i]));
         }
         return SerializeUtil.serialize(result);
     }

@@ -1,7 +1,8 @@
-package com.geekhalo.delaytask.v2;
+package delaytask.v2;
 
-import com.geekhalo.delaytask.service.OrderInfoCreateEvent;
-import com.geekhalo.delaytask.service.OrderInfoService;
+
+import delaytask.service.OrderInfoCreateEvent;
+import delaytask.service.OrderInfoService;
 import lombok.Value;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.time.DateUtils;
@@ -10,8 +11,7 @@ import org.springframework.context.SmartLifecycle;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.event.TransactionalEventListener;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
+
 import java.util.Date;
 import java.util.concurrent.DelayQueue;
 import java.util.concurrent.Delayed;

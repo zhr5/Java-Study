@@ -1,4 +1,4 @@
-package com.geekhalo.delaytask.service;
+package delaytask.service;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package com.geekhalo.delaytask.v5.support;
+package delaytask.v5.support;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

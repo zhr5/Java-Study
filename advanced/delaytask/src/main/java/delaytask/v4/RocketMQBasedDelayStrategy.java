@@ -1,6 +1,7 @@
-package com.geekhalo.delaytask.v4;
+package delaytask.v4;
 
-import com.geekhalo.delaytask.service.OrderInfoCreateEvent;
+
+import delaytask.service.OrderInfoCreateEvent;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,8 +10,7 @@ import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.event.TransactionalEventListener;
 
-import javax.annotation.PostConstruct;
-import java.util.concurrent.TimeUnit;
+
 
 @Service
 @Slf4j

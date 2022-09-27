@@ -1,4 +1,4 @@
-package com.geekhalo.delaytask.v5.support;
+package delaytask.v5.support;
 
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;

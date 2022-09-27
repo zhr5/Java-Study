@@ -1,4 +1,4 @@
-package com.geekhalo.delaytask.v5.support;
+package delaytask.v5.support;
 
 import org.apache.commons.lang3.reflect.MethodUtils;
 import org.springframework.aop.framework.AopProxyUtils;

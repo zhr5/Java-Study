@@ -1,6 +1,7 @@
-package com.geekhalo.delaytask.v5;
+package delaytask.v5;
 
-import com.geekhalo.delaytask.service.OrderInfoCreateEvent;
+
+import delaytask.service.OrderInfoCreateEvent;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
