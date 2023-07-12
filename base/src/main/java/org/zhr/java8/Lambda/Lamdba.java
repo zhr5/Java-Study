@@ -21,19 +21,19 @@ public class Lamdba {
 
 
         /*Comperator 接口 */
-        List<Integer> strings = Arrays.asList(1, 2, 3);
+        List<Integer> list = Arrays.asList(1, 2, 3);
 
-        Collections.sort(strings, new Comparator<Integer>() {
+        Collections.sort(list, new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
                 return o1 - o2;}
         });
 
         //Lambda
-        Collections.sort(strings, (Integer o1, Integer o2) -> o1 - o2);
+        Collections.sort(list, (Integer o1, Integer o2) -> o1 - o2);
         //分解开
         Comparator<Integer> comperator = (Integer o1, Integer o2) -> o1 - o2;
-        Collections.sort(strings, comperator);
+        Collections.sort(list, comperator);
 
 
         /**Listener 接口*/
@@ -46,6 +46,18 @@ public class Lamdba {
         });
         //lambda
         button.addItemListener(e -> e.getItem());
+
+
+        Arrays.asList( "a", "b", "d" ).forEach( e -> System.out.println( e ) );
+
+        Arrays.asList( "a", "b", "d" ).sort( ( e1, e2 ) -> e1.compareTo( e2 ) );
+
+       /* 可选的大括号*/
+        Arrays.asList( "a", "b", "c" ).forEach( e -> {
+            System.out.println( e );
+            System.out.println( e );
+        } );
+
     }
 }
 
