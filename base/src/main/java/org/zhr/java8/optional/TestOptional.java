@@ -8,6 +8,7 @@ public class TestOptional {
 
         //1. 将可能为空的对象转换成Optional对象
         User user=new User("张三",30,1);
+        //为指定的值创建一个Optional，如果指定的值为null，则返回一个空的Optional。
         Optional<User> optionalUser=Optional.ofNullable(user);
         if(user!=null){
             int age=user.getAge();
