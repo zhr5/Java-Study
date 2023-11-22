@@ -42,6 +42,3 @@ out
 test-output
 atlassian-ide-plugin.xml
 .gradletasknamecache
-!/code/kafkaDemo/poslog/
-
-
